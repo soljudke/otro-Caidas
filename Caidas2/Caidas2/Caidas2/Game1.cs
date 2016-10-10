@@ -24,12 +24,15 @@ namespace Caidas2
         string[] cabc = new string[27] { "cajaA", "cajaB", "cajaC", "cajaD", "cajaE", "cajaF", "cajaG", "cajaH", "cajaI", "cajaJ", "cajaK", "cajaL", "cajaM", "cajaN", "caja—", "cajaO", "cajaP", "cajaQ", "cajaR", "cajaS", "cajaT", "cajaU", "cajaV", "cajaW", "cajaX", "cajaY", "cajaZ" };
         Rectangle[] recABC2 = new Rectangle[27];
         Rectangle[] recCajaABC2 = new Rectangle[27];
-        int[] cosas = new int[27];
-        int[] pressedY = new int[27];
-        int[] pressedX = new int[27];
+        int[] cosas = new int[10];
+        int[] pressedY = new int[10];
+        int[] pressedX = new int[10];
         int x = 20;
         int y = 20;
-        
+        bool[] clickeado = new bool[10];
+        bool[] clickeado2 = new bool[10];
+        int[] flags = new int[10];
+        int[] banderas = new int[10];
         Texture2D[] textABC = new Texture2D[10];
         Texture2D[] cajaABC = new Texture2D[3];
         Rectangle[] recABC = new Rectangle[10];
@@ -134,7 +137,7 @@ namespace Caidas2
                 int num = rand.Next(10);
                 if (!listRand3.Contains(num)) //If it's not contains, add number to array;
                 {
-                    listRand.Add(num);                    
+                    listRand3.Add(num);                    
                     cajaABC[i] = Content.Load<Texture2D>(cabc[num]);
                     cajaABC[i].Name = num.ToString();
                    
@@ -172,6 +175,18 @@ namespace Caidas2
             currentMouseState = Mouse.GetState();
             if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recPlayer.Contains(currentMouseState.X, currentMouseState.Y) && (recPlayer.Contains(previousMouseState.X, previousMouseState.Y))))
             {
+                for (int i = 0; i < 10; i++)
+                {
+                    if ((recABC[i].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[i].Contains(previousMouseState.X, previousMouseState.Y))))
+                    {
+                        clickeado[i] = true;
+                        clickeado2[i] = true;
+                        flags[i] = 1;
+                        banderas[i] = 1;
+                        pressedX[i] = currentMouseState.X-30;
+                        pressedY[i] = currentMouseState.Y-30;
+                    }
+                }
                 
                 clicked = true;
                 clicked2 = true;
@@ -212,10 +227,14 @@ namespace Caidas2
             recCaja = new Rectangle(50, 350, caja.Width, caja.Height);
             recCaja2 = new Rectangle(200, 350, otraCaja.Width, otraCaja.Height);
             recRepeat = new Rectangle(500, 10,repeat.Width,repeat.Height);
+
+            recCajaABC[0] = new Rectangle(250, 500, cajaABC[0].Width, cajaABC[0].Height);
+            recCajaABC[1] = new Rectangle(450, 500, cajaABC[1].Width, cajaABC[1].Height);
+            recCajaABC[2] = new Rectangle(650, 500, cajaABC[2].Width, cajaABC[2].Height);
             if (clicked)
             {
                 recPlayer = new Rectangle(currentMouseState.X-30, currentMouseState.Y-30, letra.Width, letra.Height);
-               
+              
             }
             else
             {
@@ -230,9 +249,9 @@ namespace Caidas2
                 }
                
             }
-            if (bandera==1)
+            if (bandera == 1)
             {
-                if (recCaja.Intersects(recPlayer)&&!clicked2)
+                if (recCaja.Intersects(recPlayer) && !clicked2)
                 {
                     noDraw = true;
                 }
@@ -241,8 +260,43 @@ namespace Caidas2
                     malTocado = true;
                 }
             }
+
+            for (int i = 0; i < 10; i++)
+            {
+                if (clickeado[i])
+                {
+                    recABC[i] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[i].Width, textABC[i].Height);
+
+                }
+                else
+                {
+                    if (flags[i] == 0)
+                    {
+                        recABC[i] = new Rectangle(100, cosas[i], textABC[i].Width, textABC[i].Height);
+                    }
+                    else if (flags[i] == 1)
+                    {
+                        cosas[i] = pressedY[i];
+                        recABC[i] = new Rectangle(pressedX[i], cosa2, textABC[i].Width, textABC[i].Height);
+                    }
+
+                }
+                if (banderas[i] == 1)
+                {
+                    if (recCajaABC[i].Intersects(recABC[i]) && !clickeado2[i])
+                    {
+                        noDraw = true;
+                    }
+                    else 
+                    {
+                        malTocado = true;
+                    }
+                }
+            }
+           
             
-            if (cosa == 400)
+            
+           /* if (cosa == 400)
             {
                 cosa = 0;
                 bandera = 0;
@@ -251,7 +305,7 @@ namespace Caidas2
                 GraphicsDevice.Clear(Color.CornflowerBlue);
                 noDraw = false;
                 malTocado = false;
-            }
+            }*/
             if (Keyboard.GetState().IsKeyDown(Keys.Escape))
                 this.Exit();
            //////////////////////////////////////////////////////////////////
@@ -270,7 +324,7 @@ namespace Caidas2
             // TODO: Add your drawing code here
             spriteBatch.Begin();
             
-                spriteBatch.Draw(textABC[0], new Vector2(20, cosas[0]), Color.White);
+                /*spriteBatch.Draw(textABC[0], new Vector2(20, cosas[0]), Color.White);
                 cosas[0]++;
                 spriteBatch.Draw(textABC[1], new Vector2(120, cosas[1]), Color.White);
                 cosas[1]++;
@@ -289,18 +343,59 @@ namespace Caidas2
                 spriteBatch.Draw(textABC[8], new Vector2(820, cosas[8]), Color.White);
                 cosas[8]++;
                 spriteBatch.Draw(textABC[9], new Vector2(920, cosas[9]), Color.White);
-                cosas[9]++;
-
+                cosas[9]++;*/
                 spriteBatch.Draw(cajaABC[0], new Vector2(250, 500), Color.White);
                 spriteBatch.Draw(cajaABC[1], new Vector2(450, 500), Color.White);
                 spriteBatch.Draw(cajaABC[2], new Vector2(650, 500), Color.White);
-                
+                for (int i = 0; i < 10; i++)
+                {
+                    if (!noDraw && !malTocado)
+                    {
+                        if (clickeado[i])
+                        {
+                            spriteBatch.Draw(textABC[i], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
+                            
+                        }
+                        else
+                        {
+                            if (flags[i] == 0)
+                            {
+                                cosas[i]++;
+                                spriteBatch.Draw(textABC[i], new Vector2(300, cosas[i]), Color.White);
+                                recABC[i] = new Rectangle(300, cosas[i], textABC[i].Width, textABC[i].Height);
+                            }
+                            else if (flags[i] == 1)
+                            {
+                                //cosa = pressedY;
+                                //cosa++;
+                                pressedY[i]++;
+                                spriteBatch.Draw(textABC[i], new Vector2(pressedX[i], pressedY[i]), Color.White);
+                            }
+
+                        }
+                        
+                    }
+                    else
+                    {
+                        if (noDraw)
+                        {
+                            GraphicsDevice.Clear(Color.Orange);
+                            spriteBatch.Draw(bien, new Vector2(200, 200), Color.White);
+                        }
+                        if (malTocado)
+                        {
+                            GraphicsDevice.Clear(Color.Orange);
+                            spriteBatch.Draw(mal, new Vector2(200, 200), Color.White);
+                        }
+                    }
+                }
           
             if (!noDraw && !malTocado)
             {
                 if (clicked)
                 {
                     spriteBatch.Draw(letra, new Vector2(currentMouseState.X-30, currentMouseState.Y-30), Color.White);
+
                 }
                 else
                 {
