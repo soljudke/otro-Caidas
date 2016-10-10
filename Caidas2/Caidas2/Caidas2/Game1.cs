@@ -164,6 +164,119 @@ namespace Caidas2
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         MouseState current, last;
         private float holdTimer;
+        public void Apretar()
+        {
+            if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recABC[0].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[0].Contains(previousMouseState.X, previousMouseState.Y))))
+            {
+                clickeado[0] = true;
+                clickeado2[0] = true;
+                flags[0] = 1;
+                banderas[0] = 1;
+                pressedX[0] = currentMouseState.X - 30;
+                pressedY[0] = currentMouseState.Y - 30;
+            }
+            else if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recABC[1].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[1].Contains(previousMouseState.X, previousMouseState.Y))))
+            {
+                clickeado[1] = true;
+                clickeado2[1] = true;
+                flags[1] = 1;
+                banderas[1] = 1;
+                pressedX[1] = currentMouseState.X - 30;
+                pressedY[1] = currentMouseState.Y - 30;
+            }
+            else if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recABC[2].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[2].Contains(previousMouseState.X, previousMouseState.Y))))
+            {
+                clickeado[2] = true;
+                clickeado2[2] = true;
+                flags[2] = 1;
+                banderas[2] = 1;
+                pressedX[2] = currentMouseState.X - 30;
+                pressedY[2] = currentMouseState.Y - 30;
+            }
+            else if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recABC[3].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[3].Contains(previousMouseState.X, previousMouseState.Y))))
+            {
+                clickeado[3] = true;
+                clickeado2[3] = true;
+                flags[3] = 1;
+                banderas[3] = 1;
+                pressedX[3] = currentMouseState.X - 30;
+                pressedY[3] = currentMouseState.Y - 30;
+            }
+            else if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recABC[4].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[4].Contains(previousMouseState.X, previousMouseState.Y))))
+            {
+                clickeado[4] = true;
+                clickeado2[4] = true;
+                flags[4] = 1;
+                banderas[4] = 1;
+                pressedX[4] = currentMouseState.X - 30;
+                pressedY[4] = currentMouseState.Y - 30;
+            }
+            else if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recABC[5].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[5].Contains(previousMouseState.X, previousMouseState.Y))))
+            {
+                clickeado[5] = true;
+                clickeado2[5] = true;
+                flags[5] = 1;
+                banderas[5] = 1;
+                pressedX[5] = currentMouseState.X - 30;
+                pressedY[5] = currentMouseState.Y - 30;
+            }
+            else if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recABC[6].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[6].Contains(previousMouseState.X, previousMouseState.Y))))
+            {
+                clickeado[6] = true;
+                clickeado2[6] = true;
+                flags[6] = 1;
+                banderas[6] = 1;
+                pressedX[6] = currentMouseState.X - 30;
+                pressedY[6] = currentMouseState.Y - 30;
+            }
+            else if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recABC[7].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[7].Contains(previousMouseState.X, previousMouseState.Y))))
+            {
+                clickeado[7] = true;
+                clickeado2[7] = true;
+                flags[7] = 1;
+                banderas[7] = 1;
+                pressedX[7] = currentMouseState.X - 30;
+                pressedY[7] = currentMouseState.Y - 30;
+            }
+            else if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recABC[8].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[8].Contains(previousMouseState.X, previousMouseState.Y))))
+            {
+                clickeado[8] = true;
+                clickeado2[8] = true;
+                flags[8] = 1;
+                banderas[8] = 1;
+                pressedX[8] = currentMouseState.X - 30;
+                pressedY[8] = currentMouseState.Y - 30;
+            }
+            else if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recABC[9].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[9].Contains(previousMouseState.X, previousMouseState.Y))))
+            {
+                clickeado[1] = true;
+                clickeado2[1] = true;
+                flags[1] = 1;
+                banderas[1] = 1;
+                pressedX[1] = currentMouseState.X - 30;
+                pressedY[1] = currentMouseState.Y - 30;
+            }
+            else if (previousMouseState.LeftButton == ButtonState.Released & currentMouseState.LeftButton == ButtonState.Pressed)
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    clickeado[i] = false;
+                    clickeado2[i] = false;
+                }
+
+            }
+            else if (previousMouseState.LeftButton == ButtonState.Released & currentMouseState.LeftButton == ButtonState.Released)
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    clickeado[i] = false;
+                    clickeado2[i] = false;
+                }
+
+                noDraw = false;
+                malTocado = false;
+            }
+        }
         protected override void Update(GameTime gameTime)
         {
             // Allows the game to exit
@@ -173,20 +286,15 @@ namespace Caidas2
 
             previousMouseState = currentMouseState;
             currentMouseState = Mouse.GetState();
+
+
+            Apretar();
+
+
+
             if ((previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed) && (recPlayer.Contains(currentMouseState.X, currentMouseState.Y) && (recPlayer.Contains(previousMouseState.X, previousMouseState.Y))))
             {
-                for (int i = 0; i < 10; i++)
-                {
-                    if ((recABC[i].Contains(currentMouseState.X, currentMouseState.Y) && (recABC[i].Contains(previousMouseState.X, previousMouseState.Y))))
-                    {
-                        clickeado[i] = true;
-                        clickeado2[i] = true;
-                        flags[i] = 1;
-                        banderas[i] = 1;
-                        pressedX[i] = currentMouseState.X-30;
-                        pressedY[i] = currentMouseState.Y-30;
-                    }
-                }
+                
                 
                 clicked = true;
                 clicked2 = true;
@@ -215,6 +323,11 @@ namespace Caidas2
                 bandera = 0;
                 presedX = currentMouseState.X-30;
                 presedY = currentMouseState.Y-30;
+                for (int i = 0; i < 10; i++)
+                {
+                    pressedX[0]=currentMouseState.X-30;
+                    pressedY[0] = currentMouseState.Y - 30;
+                }
                 cosa = 0;
                 cosa2 = 0;
                 noDraw = false;
@@ -260,42 +373,188 @@ namespace Caidas2
                     malTocado = true;
                 }
             }
-
-            for (int i = 0; i < 10; i++)
+            if (clickeado[0])
             {
-                if (clickeado[i])
-                {
-                    recABC[i] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[i].Width, textABC[i].Height);
+                recABC[0] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[0].Width, textABC[0].Height);
 
-                }
-                else
-                {
-                    if (flags[i] == 0)
-                    {
-                        recABC[i] = new Rectangle(100, cosas[i], textABC[i].Width, textABC[i].Height);
-                    }
-                    else if (flags[i] == 1)
-                    {
-                        cosas[i] = pressedY[i];
-                        recABC[i] = new Rectangle(pressedX[i], cosa2, textABC[i].Width, textABC[i].Height);
-                    }
-
-                }
-                if (banderas[i] == 1)
-                {
-                    if (recCajaABC[i].Intersects(recABC[i]) && !clickeado2[i])
-                    {
-                        noDraw = true;
-                    }
-                    else 
-                    {
-                        malTocado = true;
-                    }
-                }
             }
-           
+            else
+            {
+                if (flags[0] == 0)
+                {
+                    recABC[0] = new Rectangle(20, cosas[0], textABC[0].Width, textABC[0].Height);
+                }
+                else if (flags[0] == 1)
+                {
+                    cosas[0] = pressedY[0];
+                    recABC[0] = new Rectangle(pressedX[0], cosas[0], textABC[0].Width, textABC[0].Height);
+                }
+
+            }
+            if (clickeado[1])
+            {
+                recABC[1] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[1].Width, textABC[1].Height);
+
+            }
+            else
+            {
+                if (flags[1] == 0)
+                {
+                    recABC[1] = new Rectangle(120, cosas[1], textABC[1].Width, textABC[1].Height);
+                }
+                else if (flags[1] == 1)
+                {
+                    cosas[1] = pressedY[1];
+                    recABC[1] = new Rectangle(pressedX[1], cosas[1], textABC[1].Width, textABC[1].Height);
+                }
+
+            }
+            if (clickeado[2])
+            {
+                recABC[2] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[2].Width, textABC[2].Height);
+
+            }
+            else
+            {
+                if (flags[2] == 0)
+                {
+                    recABC[2] = new Rectangle(220, cosas[2], textABC[2].Width, textABC[2].Height);
+                }
+                else if (flags[2] == 1)
+                {
+                    cosas[2] = pressedY[2];
+                    recABC[2] = new Rectangle(pressedX[2], cosas[2], textABC[2].Width, textABC[2].Height);
+                }
+
+            }
+            if (clickeado[3])
+            {
+                recABC[3] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[3].Width, textABC[3].Height);
+
+            }
+            else
+            {
+                if (flags[3] == 0)
+                {
+                    recABC[3] = new Rectangle(320, cosas[3], textABC[3].Width, textABC[3].Height);
+                }
+                else if (flags[3] == 1)
+                {
+                    cosas[3] = pressedY[3];
+                    recABC[3] = new Rectangle(pressedX[3], cosas[3], textABC[3].Width, textABC[3].Height);
+                }
+
+            }
+            if (clickeado[4])
+            {
+                recABC[4] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[4].Width, textABC[4].Height);
+
+            }
+            else
+            {
+                if (flags[4] == 0)
+                {
+                    recABC[4] = new Rectangle(420, cosas[4], textABC[4].Width, textABC[4].Height);
+                }
+                else if (flags[4] == 1)
+                {
+                    cosas[4] = pressedY[4];
+                    recABC[4] = new Rectangle(pressedX[4], cosas[4], textABC[4].Width, textABC[4].Height);
+                }
+
+            }
+            if (clickeado[5])
+            {
+                recABC[5] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[5].Width, textABC[5].Height);
+
+            }
+            else
+            {
+                if (flags[5] == 0)
+                {
+                    recABC[5] = new Rectangle(520, cosas[5], textABC[5].Width, textABC[5].Height);
+                }
+                else if (flags[5] == 1)
+                {
+                    cosas[5] = pressedY[5];
+                    recABC[5] = new Rectangle(pressedX[5], cosas[5], textABC[5].Width, textABC[5].Height);
+                }
+
+            }
+            if (clickeado[6])
+            {
+                recABC[6] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[6].Width, textABC[6].Height);
+
+            }
+            else
+            {
+                if (flags[6] == 0)
+                {
+                    recABC[6] = new Rectangle(620, cosas[6], textABC[6].Width, textABC[6].Height);
+                }
+                else if (flags[6] == 1)
+                {
+                    cosas[6] = pressedY[6];
+                    recABC[6] = new Rectangle(pressedX[6], cosas[6], textABC[6].Width, textABC[6].Height);
+                }
+
+            }
+            if (clickeado[7])
+            {
+                recABC[7] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[7].Width, textABC[7].Height);
+
+            }
+            else
+            {
+                if (flags[7] == 0)
+                {
+                    recABC[7] = new Rectangle(720, cosas[7], textABC[7].Width, textABC[7].Height);
+                }
+                else if (flags[7] == 1)
+                {
+                    cosas[7] = pressedY[7];
+                    recABC[7] = new Rectangle(pressedX[7], cosas[7], textABC[7].Width, textABC[7].Height);
+                }
+
+            }
+            if (clickeado[8])
+            {
+                recABC[8] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[8].Width, textABC[8].Height);
+
+            }
+            else
+            {
+                if (flags[8] == 0)
+                {
+                    recABC[8] = new Rectangle(820, cosas[8], textABC[8].Width, textABC[8].Height);
+                }
+                else if (flags[8] == 1)
+                {
+                    cosas[8] = pressedY[8];
+                    recABC[8] = new Rectangle(pressedX[8], cosas[8], textABC[8].Width, textABC[8].Height);
+                }
+
+            }
+            if (clickeado[9])
+            {
+                recABC[9] = new Rectangle(currentMouseState.X - 30, currentMouseState.Y - 30, textABC[9].Width, textABC[9].Height);
+
+            }
+            else
+            {
+                if (flags[9] == 0)
+                {
+                    recABC[9] = new Rectangle(920, cosas[9], textABC[9].Width, textABC[9].Height);
+                }
+                else if (flags[9] == 1)
+                {
+                    cosas[9] = pressedY[9];
+                    recABC[9] = new Rectangle(pressedX[9], cosas[9], textABC[9].Width, textABC[9].Height);
+                }
+
+            }
             
-            
+      
            /* if (cosa == 400)
             {
                 cosa = 0;
@@ -347,54 +606,226 @@ namespace Caidas2
                 spriteBatch.Draw(cajaABC[0], new Vector2(250, 500), Color.White);
                 spriteBatch.Draw(cajaABC[1], new Vector2(450, 500), Color.White);
                 spriteBatch.Draw(cajaABC[2], new Vector2(650, 500), Color.White);
-                for (int i = 0; i < 10; i++)
+                if (!noDraw && !malTocado)
                 {
-                    if (!noDraw && !malTocado)
+                    if (clickeado[0])
                     {
-                        if (clickeado[i])
-                        {
-                            spriteBatch.Draw(textABC[i], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
-                            
-                        }
-                        else
-                        {
-                            if (flags[i] == 0)
-                            {
-                                cosas[i]++;
-                                spriteBatch.Draw(textABC[i], new Vector2(300, cosas[i]), Color.White);
-                                recABC[i] = new Rectangle(300, cosas[i], textABC[i].Width, textABC[i].Height);
-                            }
-                            else if (flags[i] == 1)
-                            {
-                                //cosa = pressedY;
-                                //cosa++;
-                                pressedY[i]++;
-                                spriteBatch.Draw(textABC[i], new Vector2(pressedX[i], pressedY[i]), Color.White);
-                            }
+                        spriteBatch.Draw(textABC[0], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
 
-                        }
-                        
                     }
                     else
                     {
-                        if (noDraw)
+                        if (flags[0] == 0)
                         {
-                            GraphicsDevice.Clear(Color.Orange);
-                            spriteBatch.Draw(bien, new Vector2(200, 200), Color.White);
+                            cosas[0]++;
+                            spriteBatch.Draw(textABC[0], new Vector2(20, cosas[0]), Color.White);
+                            recABC[0] = new Rectangle(300, cosas[0], textABC[0].Width, textABC[0].Height);
                         }
-                        if (malTocado)
+                        else if (flags[0] == 1)
                         {
-                            GraphicsDevice.Clear(Color.Orange);
-                            spriteBatch.Draw(mal, new Vector2(200, 200), Color.White);
+                            //cosa = pressedY;
+                            //cosa++;
+                            pressedY[0]++;
+                            spriteBatch.Draw(textABC[0], new Vector2(pressedX[0], pressedY[0]), Color.White);
+                        }
+
+                    }
+                    if (clickeado[1])
+                    {
+                        spriteBatch.Draw(textABC[1], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
+
+                    }
+                    else
+                    {
+                        if (flags[1] == 0)
+                        {
+                            cosas[1]++;
+                            spriteBatch.Draw(textABC[1], new Vector2(120, cosas[1]), Color.White);
+                            recABC[1] = new Rectangle(300, cosas[1], textABC[1].Width, textABC[1].Height);
+                        }
+                        else if (flags[1] == 1)
+                        {
+                            //cosa = pressedY;
+                            //cosa++;
+                            pressedY[1]++;
+                            spriteBatch.Draw(textABC[1], new Vector2(pressedX[1], pressedY[1]), Color.White);
                         }
                     }
+                    if (clickeado[2])
+                    {
+                        spriteBatch.Draw(textABC[2], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
+
+                    }
+                    else
+                    {
+                        if (flags[2] == 0)
+                        {
+                            cosas[2]++;
+                            spriteBatch.Draw(textABC[2], new Vector2(220, cosas[2]), Color.White);
+                            recABC[2] = new Rectangle(300, cosas[2], textABC[2].Width, textABC[2].Height);
+                        }
+                        else if (flags[2] == 1)
+                        {
+                            //cosa = pressedY;
+                            //cosa++;
+                            pressedY[2]++;
+                            spriteBatch.Draw(textABC[2], new Vector2(pressedX[2], pressedY[2]), Color.White);
+                        }
+                    }
+                    if (clickeado[3])
+                    {
+                        spriteBatch.Draw(textABC[3], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
+
+                    }
+                    else
+                    {
+                        if (flags[3] == 0)
+                        {
+                            cosas[3]++;
+                            spriteBatch.Draw(textABC[3], new Vector2(320, cosas[3]), Color.White);
+                            recABC[3] = new Rectangle(300, cosas[3], textABC[3].Width, textABC[3].Height);
+                        }
+                        else if (flags[0] == 1)
+                        {
+                            //cosa = pressedY;
+                            //cosa++;
+                            pressedY[3]++;
+                            spriteBatch.Draw(textABC[3], new Vector2(pressedX[3], pressedY[3]), Color.White);
+                        }
+                    }
+                    if (clickeado[4])
+                    {
+                        spriteBatch.Draw(textABC[4], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
+
+                    }
+                    else
+                    {
+                        if (flags[4] == 0)
+                        {
+                            cosas[4]++;
+                            spriteBatch.Draw(textABC[4], new Vector2(420, cosas[4]), Color.White);
+                            recABC[4] = new Rectangle(300, cosas[4], textABC[4].Width, textABC[4].Height);
+                        }
+                        else if (flags[4] == 1)
+                        {
+                            //cosa = pressedY;
+                            //cosa++;
+                            pressedY[4]++;
+                            spriteBatch.Draw(textABC[4], new Vector2(pressedX[4], pressedY[4]), Color.White);
+                        }
+                    }
+                    if (clickeado[5])
+                    {
+                        spriteBatch.Draw(textABC[5], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
+
+                    }
+                    else
+                    {
+                        if (flags[5] == 0)
+                        {
+                            cosas[5]++;
+                            spriteBatch.Draw(textABC[5], new Vector2(520, cosas[5]), Color.White);
+                            recABC[5] = new Rectangle(300, cosas[5], textABC[5].Width, textABC[5].Height);
+                        }
+                        else if (flags[5] == 1)
+                        {
+                            //cosa = pressedY;
+                            //cosa++;
+                            pressedY[5]++;
+                            spriteBatch.Draw(textABC[5], new Vector2(pressedX[5], pressedY[5]), Color.White);
+                        }
+                    }
+                    if (clickeado[6])
+                    {
+                        spriteBatch.Draw(textABC[6], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
+
+                    }
+                    else
+                    {
+                        if (flags[6] == 0)
+                        {
+                            cosas[6]++;
+                            spriteBatch.Draw(textABC[6], new Vector2(620, cosas[6]), Color.White);
+                            recABC[6] = new Rectangle(300, cosas[6], textABC[6].Width, textABC[6].Height);
+                        }
+                        else if (flags[6] == 1)
+                        {
+                            //cosa = pressedY;
+                            //cosa++;
+                            pressedY[6]++;
+                            spriteBatch.Draw(textABC[6], new Vector2(pressedX[6], pressedY[6]), Color.White);
+                        }
+                    }
+                    if (clickeado[7])
+                    {
+                        spriteBatch.Draw(textABC[7], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
+
+                    }
+                    else
+                    {
+                        if (flags[7] == 0)
+                        {
+                            cosas[7]++;
+                            spriteBatch.Draw(textABC[7], new Vector2(720, cosas[7]), Color.White);
+                            recABC[7] = new Rectangle(300, cosas[7], textABC[7].Width, textABC[7].Height);
+                        }
+                        else if (flags[7] == 1)
+                        {
+                            //cosa = pressedY;
+                            //cosa++;
+                            pressedY[7]++;
+                            spriteBatch.Draw(textABC[7], new Vector2(pressedX[7], pressedY[7]), Color.White);
+                        }
+                    }
+                    if (clickeado[8])
+                    {
+                        spriteBatch.Draw(textABC[8], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
+
+                    }
+                    else
+                    {
+                        if (flags[8] == 0)
+                        {
+                            cosas[8]++;
+                            spriteBatch.Draw(textABC[8], new Vector2(820, cosas[8]), Color.White);
+                            recABC[8] = new Rectangle(300, cosas[8], textABC[8].Width, textABC[8].Height);
+                        }
+                        else if (flags[8] == 1)
+                        {
+                            //cosa = pressedY;
+                            //cosa++;
+                            pressedY[8]++;
+                            spriteBatch.Draw(textABC[8], new Vector2(pressedX[8], pressedY[8]), Color.White);
+                        }
+                    }
+                    if (clickeado[9])
+                    {
+                        spriteBatch.Draw(textABC[9], new Vector2(currentMouseState.X - 30, currentMouseState.Y - 30), Color.White);
+
+                    }
+                    else
+                    {
+                        if (flags[9] == 0)
+                        {
+                            cosas[9]++;
+                            spriteBatch.Draw(textABC[9], new Vector2(920, cosas[9]), Color.White);
+                            recABC[9] = new Rectangle(300, cosas[9], textABC[9].Width, textABC[9].Height);
+                        }
+                        else if (flags[9] == 1)
+                        {
+                            //cosa = pressedY;
+                            //cosa++;
+                            pressedY[9]++;
+                            spriteBatch.Draw(textABC[9], new Vector2(pressedX[9], pressedY[9]), Color.White);
+                        }
+
+                    }
                 }
-          
             if (!noDraw && !malTocado)
             {
                 if (clicked)
                 {
-                    spriteBatch.Draw(letra, new Vector2(currentMouseState.X-30, currentMouseState.Y-30), Color.White);
+                   // spriteBatch.Draw(letra, new Vector2(currentMouseState.X-30, currentMouseState.Y-30), Color.White);
 
                 }
                 else
@@ -402,7 +833,7 @@ namespace Caidas2
                     if (flag == 0)
                     {
                         cosa++;
-                        spriteBatch.Draw(letra, new Vector2(300, cosa), Color.White);
+                        //spriteBatch.Draw(letra, new Vector2(300, cosa), Color.White);
                         recPlayer = new Rectangle(300, cosa, letra.Width, letra.Height);
                     }
                     else if (flag == 1)
@@ -410,7 +841,7 @@ namespace Caidas2
                         //cosa = pressedY;
                         //cosa++;
                         presedY++;
-                        spriteBatch.Draw(letra, new Vector2(presedX, presedY), Color.White);
+                       // spriteBatch.Draw(letra, new Vector2(presedX, presedY), Color.White);
                     }
 
                 }
