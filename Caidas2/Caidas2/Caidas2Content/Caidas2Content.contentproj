@@ -216,6 +216,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cajaA.png">
+      <Name>cajaA</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
     <Compile Include="cajaB.png">
       <Name>cajaB</Name>
       <Importer>TextureImporter</Importer>
@@ -343,13 +348,6 @@
     </Compile>
     <Compile Include="cajaÑ.png">
       <Name>cajaÑ</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="cajaA.png">
-      <Name>cajaA</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
     </Compile>

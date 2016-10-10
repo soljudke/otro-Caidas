@@ -291,7 +291,9 @@ namespace Caidas2
                 spriteBatch.Draw(textABC[9], new Vector2(920, cosas[9]), Color.White);
                 cosas[9]++;
 
-                spriteBatch.Draw(cajaABC2[0], new Vector2(200, 500), Color.White);
+                spriteBatch.Draw(cajaABC[0], new Vector2(250, 500), Color.White);
+                spriteBatch.Draw(cajaABC[1], new Vector2(450, 500), Color.White);
+                spriteBatch.Draw(cajaABC[2], new Vector2(650, 500), Color.White);
                 
           
             if (!noDraw && !malTocado)
