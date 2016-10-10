@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>a.png</Source>
+      <Name>a</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\a.xnb</Output>
+      <Time>2016-10-05T17:12:44-03:00</Time>
+    </Item>
+    <Item>
+      <Source>caja.png</Source>
+      <Name>caja</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja.xnb</Output>
+      <Time>2016-09-29T16:31:16-03:00</Time>
+    </Item>
+    <Item>
+      <Source>Bien.png</Source>
+      <Name>Bien</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\Bien.xnb</Output>
+      <Time>2016-09-30T13:58:54-03:00</Time>
+    </Item>
+    <Item>
+      <Source>repeat.png</Source>
+      <Name>repeat</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\repeat.xnb</Output>
+      <Time>2016-09-30T15:01:02-03:00</Time>
+    </Item>
+    <Item>
+      <Source>cancel.png</Source>
+      <Name>cancel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cancel.xnb</Output>
+      <Time>2016-10-05T13:12:56-03:00</Time>
+    </Item>
+    <Item>
+      <Source>caja2.png</Source>
+      <Name>caja2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja2.xnb</Output>
+      <Time>2016-10-05T13:15:22-03:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID Null="true" />
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2Content\</RootDirectory>
+      <LoggerRootDirectory>E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2016-04-08T14:00:56.8160447-03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

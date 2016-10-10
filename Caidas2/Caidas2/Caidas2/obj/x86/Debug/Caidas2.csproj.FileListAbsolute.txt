@@ -1,0 +1,172 @@
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\a.xnb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja.xnb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.exe
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.pdb
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.csprojResolveAssemblyReference.cache
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.exe
+D:\Users\41614549.ALMAGRO\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.pdb
+C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\a.xnb
+C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja.xnb
+C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.exe
+C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.pdb
+C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.csprojResolveAssemblyReference.cache
+C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.exe
+C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.pdb
+C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\Bien.xnb
+C:\Users\c\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\repeat.xnb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\a.xnb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja.xnb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\Bien.xnb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\repeat.xnb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.exe
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.pdb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.csprojResolveAssemblyReference.cache
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.exe
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.pdb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cancel.xnb
+D:\Users\41614549.ALMAGRO.000\Desktop\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja2.xnb
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\a.xnb
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja.xnb
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\Bien.xnb
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\repeat.xnb
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cancel.xnb
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja2.xnb
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.exe
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.pdb
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.csprojResolveAssemblyReference.cache
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.exe
+E:\Super proyecto\Caidas\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.pdb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\Bien.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\repeat.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cancel.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja2.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\a.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\b.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\c.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\d.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\e.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\f.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\g.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\h.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\i.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\j.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\k.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\l.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\m.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\n.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\o.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\p.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\q.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\r.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\s.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\t.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\u.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\w.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\x.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\y.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\z.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\v.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\ñ.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.exe
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.pdb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.csprojResolveAssemblyReference.cache
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.exe
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.pdb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaA.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaB.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaC.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaD.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaE.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaF.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaG.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaH.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaI.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaJ.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaK.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaL.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaM.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaN.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaO.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaP.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaQ.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaR.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaS.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaT.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaU.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaV.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaW.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaX.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaY.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaZ.xnb
+C:\Users\c\Desktop\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaÑ.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\Bien.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\repeat.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cancel.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\caja2.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\a.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\b.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\c.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\d.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\e.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\f.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\g.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\h.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\i.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\j.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\k.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\l.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\m.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\n.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\o.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\p.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\q.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\r.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\s.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\t.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\u.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\w.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\x.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\y.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\z.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\v.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\ñ.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaA.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaB.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaC.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaD.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaE.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaF.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaG.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaH.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaI.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaJ.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaK.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaL.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaM.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaN.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaO.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaP.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaQ.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaR.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaS.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaT.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaU.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaV.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaW.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaX.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaY.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaZ.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Content\cajaÑ.xnb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.exe
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\bin\x86\Debug\Caidas2.pdb
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.csprojResolveAssemblyReference.cache
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.exe
+G:\Super proyecto\Caidas nuevo\Caidas2\Caidas2\Caidas2\obj\x86\Debug\Caidas2.pdb
