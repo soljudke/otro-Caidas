@@ -275,7 +275,7 @@ namespace Caidas2
 
             previousMouseState = currentMouseState;
             currentMouseState = Mouse.GetState();
-            if (!(currentMouseState.LeftButton==ButtonState.Released))
+            if (!(previousMouseState.LeftButton == ButtonState.Pressed & currentMouseState.LeftButton == ButtonState.Released))
             {                
                 Apretar();                
             }                       
